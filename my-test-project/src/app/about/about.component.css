@@ -1,0 +1,8 @@
+.textblock {
+  padding: 10% 5%;
+  text-align: justify;
+}
+
+.textblock:hover {
+  background-color: #f5eeed;
+}

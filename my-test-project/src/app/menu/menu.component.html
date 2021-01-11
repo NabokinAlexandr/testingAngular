@@ -1,0 +1,17 @@
+<mat-menu #menu="matMenu" yPosition="below" xPosition="before">
+  <ng-template matMenuContent>
+    <button mat-menu-item  routerLink='' routerLinkActive="active">
+      <mat-icon>home</mat-icon>
+      <span>Home</span>
+    </button>
+    <button mat-menu-item  routerLink='portfolio' routerLinkActive="active">
+      <mat-icon>assignment_ind</mat-icon>
+      <span>Portfolio</span>
+    </button>
+    <button mat-menu-item routerLink='about' routerLinkActive="active">
+      <mat-icon>android</mat-icon>
+      <span>About me</span>
+    </button>
+  </ng-template>
+</mat-menu>
+<button  mat-icon-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
